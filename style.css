@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif, helvetica, arial;
+}
+
+.header-section {
+    background-color: #1F2937;
+    padding: 0 96px;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    /*background-color: skyblue;*/    /*Just for testing the alignment!*/
+    font-family: ;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.logo p {
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    gap: 12px;
+}
+
+.links a {
+    font-size: 18px;
+    color: #EFE7EB;
+}
+
+.header-section-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0;
+    align-items: flex-start;
+    
+}
+
+.hero-left {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 450px;
+    align-items: flex-start;
+    row-gap: 8px;
+}
+
+.hero-left p, .hero-left h1 {
+    margin: 0;
+}
+
+.hero-img {
+    display: flex;
+    background-color: darkgrey;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 200px;
+    
+}
+
+.hero-img img {
+    color: white;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #EFE7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 4px 16px;
+    border: 0;
+    color: #F9FAF8;
+    font-weight: bold;
+}
