@@ -144,3 +144,34 @@ button {
     text-align: right;
     font-weight: bold;
 }
+
+.ad-section {
+    padding: 50px 80px;
+}
+
+.ad-banner {
+    background-color: #3882F6;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 16px;
+    color: #EFE7EB;
+}
+
+.ad-banner button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 4px 16px;
+    border: 1px;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-color: white;
+    border-style: solid;
+}
